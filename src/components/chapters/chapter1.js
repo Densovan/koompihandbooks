@@ -1,20 +1,8 @@
 import React, { useState } from "react";
-import Loader from "../loader/loader";
 import { Link } from "react-router-dom";
 import { Row, Col, Affix } from "antd";
 import Navbar from "../navbar";
 const Chapter1 = () => {
-  // const [loader, setLoader] = useState({ loading: true });
-  // const sleep = milliseconds => {
-  //   return new Promise(resolve => setTimeout(resolve, milliseconds));
-  // };
-  // const wait =(milliseconds = 2000) =>{
-  //   sleep(milliseconds);
-  //   setLoader({
-
-  //   })
-  // }
-  // if (loader.loading) return <Loader></Loader>;
   return (
     <div className="container">
       <Row gutter={[100, 0]}>

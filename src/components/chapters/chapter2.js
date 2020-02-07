@@ -19,7 +19,7 @@ const Chapter2 = () => {
         </Col>
         <Col sm={16}>
           <p className="paragraph">
-            Everyone working at Basecamp represents Basecamp. When a customer
+            Everyone working at Basecampd represents Basecamp. When a customer
             gets a response from Merissa on support, Merissa is Basecamp. When a
             customer reads a tweet by Eron that our systems are down, Eron is
             Basecamp. In those situations, all the other stuff we do to

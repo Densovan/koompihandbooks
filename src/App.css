@@ -42,7 +42,7 @@ body {
 }
 .container {
   /* width: 1100px; */
-  width: 90%;
+  max-width: 90%;
   margin-left: auto !important;
   margin-right: auto !important;
 }
@@ -99,6 +99,9 @@ body {
 @media only screen and (max-width: 572px) {
   .ant-affix {
     position: absolute !important;
+  }
+  .ant-drawer-content-wrapper {
+    width: 300px !important;
   }
 }
 /* .laoder {

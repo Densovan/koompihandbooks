@@ -19,7 +19,6 @@ function Navbar() {
   return (
     <div className="navbar-button">
       <Drawer
-        // title="KOOMPI EMPLOYEE HANDBOOKS"
         width={720}
         onClose={onClose}
         visible={open.visible}
